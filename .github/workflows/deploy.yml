@@ -47,7 +47,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: docs/.vitepress/dist # 打包之后产物的文件夹
+          path: .vitepress/dist # 打包之后产物的文件夹
 
   # 部署工作
   deploy:
@@ -62,7 +62,3 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 
-作者：南瓜布丁
-链接：https://juejin.cn/post/7409865546197893171
-来源：稀土掘金
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
