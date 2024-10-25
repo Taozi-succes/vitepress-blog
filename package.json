@@ -16,5 +16,5 @@
     "build": "vitepress build",
     "preview": "vitepress preview"
   },
-  "packageManager": "pnpm@8.14.0"
+  "packageManager": "pnpm@7.29.1"
 }
