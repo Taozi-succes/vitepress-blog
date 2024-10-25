@@ -16,5 +16,5 @@
     "build": "vitepress build",
     "preview": "vitepress preview"
   },
-  "packageManager": "yarn@1.22.22"
+  "packageManager": "pnpm@8.14.0"
 }
