@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "China Carlos's Blog"
-  text: "PWA FAST SDK"
+  text: "Taozi的博客"
   tagline: Carlos's Blog Web Site
   image:
     src: /moto.jpg
