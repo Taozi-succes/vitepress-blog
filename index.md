@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "China Carlos's Blog"
-  text: "Taozi的博客"
+  text: "Taozi的博客123"
   tagline: Carlos's Blog Web Site
   image:
     src: /moto.jpg
