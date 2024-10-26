@@ -8,8 +8,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: 'My Awesome Project',
-  description: 'A VitePress Site',
+  title: 'Taozi的博客',
+  description: '程序猿的学习笔记',
   // header标签里面插入的内容
 
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
