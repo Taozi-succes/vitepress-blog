@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "China Carlos's Blog"
-  text: "Taozi的博客123"
+  text: 'Taozi的博客123'
   tagline: Carlos's Blog Web Site
   image:
     src: /moto.jpg
@@ -63,7 +63,7 @@ features:
     details: PWA（渐进式Web应用）生态包括Service Workers、Web App Manifest、响应式设计、离线支持、推送通知和应用缓存等技术，旨在提升Web应用的性能和用户体验，接近原生应用的功能。
     link: https://carlosme.fun
     linkText: 查看详情
-
-
 ---
 
+<confetti />
+<VisitorPanel />
