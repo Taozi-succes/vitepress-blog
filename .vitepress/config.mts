@@ -69,6 +69,6 @@ export default defineConfig({
     ],
   },
   // 部署的时候需要注意该参数避免样式丢失
-  base: '/vitepress/',
+  base: '/vitepress-blog/',
   // 打包的时候需要配置该参数
 })
