@@ -51,16 +51,17 @@ export default defineConfig({
 
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' },
+      { text: '主页', link: '/' },
+      { text: '笔记', link: '/Engineering' },
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: '笔记',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' },
+          { text: '工程化面试题汇总', link: '/Engineering' },
+          { text: '网络面试题汇总', link: '/allNetwork' },
+          { text: '浏览器相关', link: '/browser' },
         ],
       },
     ],
