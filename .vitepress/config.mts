@@ -54,7 +54,29 @@ export default defineConfig({
       { text: '主页', link: '/index.md' },
       { text: '面试题', link: '/src/interview/frontend/Engineering/Engineering.md' },
       { text: '后端自习室', link: '/src/backend/C/index.md' },
-      { text: '前端小食堂', link: '/src/frontend/TypeScript/index.md' },
+      {
+        text: '前端小食堂',
+        items: [
+          {
+            text: '基本功',
+            items: [
+              { text: 'Html', link: '/src/frontend/Html/index.md' },
+              { text: 'CSS', link: '/src/frontend/CSS/index.md' },
+              { text: 'JavaScript', link: '/src/frontend/JavaScript/index.md' },
+              { text: 'TypeScript', link: '/src/frontend/TypeScript/index.md' },
+            ]
+          },
+          {
+            text: '框架',
+            items: [
+              { text: 'React', link: '/src/frontend/React/index.md' },
+              { text: 'NextJS', link: '/src/frontend/NextJS/index.md' },
+              { text: 'Vue', link: '/src/frontend/Vue/index.md' },
+              { text: 'Tauri', link: '/src/frontend/Tauri/index.md' },
+            ]
+          },
+        ]
+      },
       { text: '算法', link: '/src/algorithm/index.md' },
     ],
 
@@ -80,9 +102,19 @@ export default defineConfig({
       ],
       '/src/frontend/TypeScript/': [
         {
-          text: '前端',
+          text: '基础知识学习',
+          collapsed: true,
           items: [
-            { text: 'TypeScript', link: '/src/frontend/TypeScript/index.md' },
+            { text: '1.引言', link: '/src/frontend/TypeScript/index.md' },
+            { text: '2.安装与配置', link: '/src/frontend/TypeScript/install.md' },
+            { text: '3.TypeScript 的核心概念', link: '/src/frontend/TypeScript/baseType.md' },
+          ],
+        },
+        {
+          text: '进阶知识学习',
+          collapsed: true,
+          items: [
+            { text: '1.进阶', link: '/src/frontend/TypeScript/baseType.md' },
           ],
         },
       ],
