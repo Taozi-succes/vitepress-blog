@@ -51,20 +51,50 @@ export default defineConfig({
 
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: '主页', link: '/' },
-      { text: '笔记', link: '/Engineering' },
+      { text: '主页', link: '/index.md' },
+      { text: '面试题', link: '/src/interview/frontend/Engineering/Engineering.md' },
+      { text: '后端自习室', link: '/src/backend/C/index.md' },
+      { text: '前端小食堂', link: '/src/frontend/TypeScript/index.md' },
+      { text: '算法', link: '/src/algorithm/index.md' },
     ],
 
-    sidebar: [
-      {
-        text: '笔记',
-        items: [
-          { text: '工程化面试题汇总', link: '/Engineering' },
-          { text: '网络面试题汇总', link: '/allNetwork' },
-          { text: '浏览器相关', link: '/browser' },
-        ],
-      },
-    ],
+    // sidebar 按路径分组，只显示当前类目
+    sidebar: {
+      '/src/interview/frontend/Engineering/': [
+        {
+          text: '面试题',
+          items: [
+            { text: '工程化面试题汇总', link: '/src/interview/frontend/Engineering/Engineering.md' },
+            { text: '网络面试题汇总', link: '/src/interview/frontend/Engineering/Network.md' },
+            { text: '浏览器相关', link: '/src/interview/frontend/Engineering/Browser.md' },
+          ],
+        },
+      ],
+      '/src/backend/C/': [
+        {
+          text: '后端',
+          items: [
+            { text: 'C语言', link: '/src/backend/C/index.md' },
+          ],
+        },
+      ],
+      '/src/frontend/TypeScript/': [
+        {
+          text: '前端',
+          items: [
+            { text: 'TypeScript', link: '/src/frontend/TypeScript/index.md' },
+          ],
+        },
+      ],
+      '/src/algorithm/': [
+        {
+          text: '算法',
+          items: [
+            { text: '算法', link: '/src/algorithm/index.md' },
+          ],
+        },
+      ],
+    },
     // 社交链接
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
