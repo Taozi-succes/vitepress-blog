@@ -42,9 +42,9 @@ export default defineConfig({
     },
     // 文档的最后更新时间
     lastUpdated: {
-      text: 'Updated at',
+      text: 'Updated Date:',
       formatOptions: {
-        dateStyle: 'full',
+        dateStyle: 'short',
         timeStyle: 'medium',
       },
     },
