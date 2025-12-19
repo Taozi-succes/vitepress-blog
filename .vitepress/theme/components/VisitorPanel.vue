@@ -27,10 +27,8 @@
   import { inBrowser } from "vitepress";
   const onLinkUmiHandle = () => {
     if (inBrowser) {
-      window.open(
-        "https://taozi-succes.github.io/vitepress-blog/",
-        "_blank"
-      );
+      // 刷新当前页面
+      window.location.reload();
     }
   };
   </script>

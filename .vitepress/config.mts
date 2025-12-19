@@ -53,7 +53,10 @@ export default defineConfig({
     nav: [
       { text: '主页', link: '/index.md' },
       { text: '面试题', link: '/src/interview/frontend/Engineering/Engineering.md' },
-      { text: '后端自习室', link: '/src/backend/C/index.md' },
+      { text: '后端自习室', items:[
+        { text: 'C', link: '/src/backend/C/index.md' },
+        { text: 'nestjs', link: '/src/backend/NestJs/index.xmind' },
+      ]},
       {
         text: '前端小食堂',
         items: [
@@ -77,7 +80,7 @@ export default defineConfig({
           },
         ]
       },
-      { text: '算法', link: '/src/algorithm/index.md' },
+      { text: '运维', link: '/src/ops/linux/index.md' },
     ],
 
     // sidebar 按路径分组，只显示当前类目
@@ -94,9 +97,9 @@ export default defineConfig({
       ],
       '/src/backend/C/': [
         {
-          text: '后端',
+          text: 'C语言学习',
           items: [
-            { text: 'C语言', link: '/src/backend/C/index.md' },
+            { text: '核心概念', link: '/src/backend/C/index.md' },
           ],
         },
       ],
@@ -118,11 +121,11 @@ export default defineConfig({
           ],
         },
       ],
-      '/src/algorithm/': [
+      '/src/ops/linux/': [
         {
-          text: '算法',
+          text: '运维',
           items: [
-            { text: '算法', link: '/src/algorithm/index.md' },
+            { text: '运维', link: '/src/ops/linux/index.md' },
           ],
         },
       ],
