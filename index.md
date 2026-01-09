@@ -4,8 +4,9 @@ layout: home
 
 hero:
   name: ''
-  text: '程序猿的学习笔记'
-  tagline: 人生如逆旅，我亦是行人。
+  text: '一路向前，不停修行。'
+  textFontSize: 10px
+  tagline: 没有人能回到过去 但你可以现在开始
   image:
     src: /moto.jpg
     alt: VitePress

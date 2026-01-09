@@ -55,7 +55,8 @@ export default defineConfig({
       { text: '面试题', link: '/src/interview/frontend/Engineering/Engineering.md' },
       { text: '后端自习室', items:[
         { text: 'C', link: '/src/backend/C/index.md' },
-        { text: 'nestjs', link: '/src/backend/NestJs/index.xmind' },
+        { text: 'nestjs', link: '/src/backend/NestJs/index.md' },
+        { text: 'redis', link: '/src/backend/Redis/index.md' },
       ]},
       {
         text: '前端小食堂',
