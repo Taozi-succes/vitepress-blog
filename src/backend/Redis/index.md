@@ -69,7 +69,7 @@ redis->>client: 响应缓存结果
 
 常用服务器结构：
 
-<img src="http://mdrs.yuanjin.tech/img/image-20200611140130649.png" alt="image-20200611140130649" style="zoom:50%;" />
+<img src="./images/1.png" alt="服务结构" style="zoom:50%;" />
 
 # windows 中安装redis
 
@@ -241,8 +241,8 @@ client.set("key", "value", (err, reply) => {
 client.get("key", (err, reply) => {
   
 })
+```
 
 ## 缓存响应体
-
 
 ## 缓存session
